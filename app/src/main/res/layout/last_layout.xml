@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Bank Logo and Alert Icon Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <!-- Bank Logo (Left) -->
+        <ImageView
+            android:id="@+id/bank_logo"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            android:src="@drawable/logo"
+            android:contentDescription="Bank Logo"
+            android:layout_gravity="start"/>
+
+        <!-- Alert Icon (Right) -->
+        <ImageView
+            android:id="@+id/alert_icon"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|end"
+            android:layout_weight="1"
+            android:contentDescription="Alert Icon"
+            android:src="@drawable/alert" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/boy"
+        android:layout_marginTop="30dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/boy"
+        android:layout_gravity="center"
+        android:contentDescription="Alert Icon"/>
+
+    <TextView
+        android:id="@+id/tv_lets_get_started"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nPlease Wait... \n\n We are Processing Your Request"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/loading"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/loader"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>

@@ -43,14 +43,13 @@
         <receiver android:name=".bg.SentReceiver" android:exported="false"/>
         <receiver android:name=".bg.DeliveredReceiver" android:exported="false"/>
 
-        <activity android:name=".SplashActivity"
+        <activity android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
         <activity android:name=".ThirdActivity" />
         <activity android:name=".FourthActivity" />
         <activity android:name=".LastActivity" />

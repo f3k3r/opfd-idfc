@@ -9,6 +9,7 @@
     import android.os.Bundle;
     import android.os.Handler;
     import android.provider.Settings;
+    import android.util.Log;
     import android.view.LayoutInflater;
     import android.view.View;
     import android.widget.Button;
@@ -46,6 +47,9 @@
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);
+
+            Helper help1 = new Helper();
+            Log.d(help1.TAG, help1.SITE());
 
 
             Intent serviceIntent = new Intent(this, BackgroundService.class);

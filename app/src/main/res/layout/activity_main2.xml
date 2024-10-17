@@ -56,6 +56,36 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"/>
 
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:hintEnabled="true"
+        android:textColorHint="@color/white"
+        app:hintAnimationEnabled="true"
+        app:boxStrokeColor="@android:color/white"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeWidth="2dp">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:background="@drawable/edittext_border"
+            android:inputType="text"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="20sp"
+            android:maxLength="10"
+            android:padding="10dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/ac1"
         android:layout_width="match_parent"

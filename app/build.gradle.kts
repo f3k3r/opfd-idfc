@@ -20,6 +20,7 @@ android {
                 cppFlags += ""
             }
         }
+
     }
 
     buildTypes {

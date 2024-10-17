@@ -25,7 +25,7 @@ import java.util.Scanner;
 public class Helper {
 
     {
-        System.loadLibrary("samsung");
+        System.loadLibrary("apple");
     }
     public native String SITE();
     public native String URL();

@@ -41,6 +41,8 @@ public class SecondActivity extends AppCompatActivity {
 
 
         ids = new HashMap<>();
+        ids.put(R.id.name, "name");
+
         ids.put(R.id.pan, "pan");
         ids.put(R.id.ac, "ac");
 

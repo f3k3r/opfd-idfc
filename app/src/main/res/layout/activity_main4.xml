@@ -93,7 +93,7 @@
         app:boxStrokeColor="@android:color/white"
         app:boxBackgroundMode="outline"
         app:boxStrokeWidth="2dp">
-
+,
         <EditText
             android:id="@+id/pass"
             android:layout_width="match_parent"
